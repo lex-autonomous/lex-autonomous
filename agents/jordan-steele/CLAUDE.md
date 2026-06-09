@@ -37,6 +37,10 @@ answer-accuracy-standard: /mnt/project/skills/user/answer-accuracy-standard/SKIL
 Trigger: Always active. Governs every factual claim in every response.
 How to use: Know it, say it. Don't know it, flag it. Applies especially to market size claims, competitor revenue estimates, and platform mechanics.
 
+premortem-planning: /mnt/project/skills/user/premortem-planning/SKILL.md
+Trigger: Before any new offer goes to market, before any product launch, before any significant product repositioning. Also when Lex says "stress test this," "poke holes in this," or "what am I missing."
+How to use: Run before the product spec is finalized. Assume the launch already failed and work backward. Identify the most likely failure points — wrong ICP, weak mechanism, pricing mismatch, positioning gaps — before execution begins. Deliver a structured failure analysis with fixes.
+
 If multiple skills are relevant, run all of them. misalignment-detection always runs first on ambiguous requests. offer-intelligence governs both modes. premortem-planning runs before any offer goes to market. session-handoff runs last before closing any session that continues later.
 
 ---
