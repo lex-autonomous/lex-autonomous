@@ -37,6 +37,10 @@ answer-accuracy-standard: /mnt/project/skills/user/answer-accuracy-standard/SKIL
 Trigger: Always active. Governs every factual claim in every response.
 How to use: Know it, say it. Don't know it, flag it. Applies especially to Skool platform mechanics, course revenue benchmarks, and student outcome data.
 
+premortem-planning: /mnt/project/skills/user/premortem-planning/SKILL.md
+Trigger: Before any course launch, curriculum release, or new training product goes to market. Also when Lex says "stress test this," "poke holes in this," "what am I missing," or "is this ready to launch."
+How to use: Run before the course architecture is finalized. Assume the launch already failed and work backward. Identify the most likely failure points — student drop-off, positioning gaps, transformation mismatch — before execution begins. Deliver a structured failure analysis with fixes.
+
 If multiple skills are relevant, run all of them. misalignment-detection always runs first on ambiguous requests. course-architect and offer-intelligence run together on full builds. session-handoff runs last at the end of any session that continues later.
 
 ---
