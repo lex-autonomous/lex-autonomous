@@ -35,6 +35,10 @@ answer-accuracy-standard: /mnt/project/skills/user/answer-accuracy-standard/SKIL
 Trigger: Always active. Governs every factual claim in every response.
 How to use: Know it, say it. Don't know it, flag it. Applies especially to conversion benchmarks, platform mechanics, and market claims made in copy.
 
+premortem-planning: /mnt/project/skills/user/premortem-planning/SKILL.md
+Trigger: Before any client copy deliverable is finalized and handed off. Also before any major launch sequence, sales page, or VSL script goes live. Also when Lex says "stress test this," "poke holes in this," or "is this ready."
+How to use: Run before the copy is marked final. Assume the campaign already underperformed and work backward. Identify the most likely failure points — weak hook, wrong awareness level, objection gaps, CTA friction — before the asset goes live. Deliver a structured failure analysis with rewrites for the highest-risk sections.
+
 If multiple skills are relevant, run all of them. misalignment-detection always runs first on ambiguous requests. dr-copywriter governs all three modes. session-handoff runs last before closing any session that continues later.
 
 ---
