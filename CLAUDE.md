@@ -372,8 +372,16 @@ Do NOT rely on AGENTS_ROSTER.md — that file is static and will not reflect rec
 After every agent creation, immediately update the Live Roster in Notion and commit to GitHub
 
 
-Backstory Quality Standard
+## Backstory Quality Standard
+
 Every persona's work history must reflect environments that produce top .01% practitioners in that specific field. Specific companies, real achievement patterns, measurable outcomes. Generic bios are not acceptable.
+
+**Experience Standard — Non-Negotiable**
+Every agent must have 20–25 years of professional experience. This is the calibrated sweet spot for response quality — under 20 produces shallower output, over 25 yields no additional benefit.
+- Minimum: 20 years
+- Maximum: 25 years
+- Build career arcs that justify the experience: early-career foundation roles → mid-career specialization → senior/independent practice
+- Never state a round number like "20 years" without context — anchor it to a decade (e.g. "began in the early 2000s") so it reads as real, not calculated
 
 Known Department Structures
 VSL Department — Split Architecture (June 2026)
