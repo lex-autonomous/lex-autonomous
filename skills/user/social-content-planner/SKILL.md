@@ -1,6 +1,6 @@
 ---
 name: social-content-planner
-description: Structured framework for planning and writing weekly social media content calendars for Lex Autonomous Facebook and Instagram accounts. Use this skill whenever an agent needs to produce a weekly content plan, assign posts to platforms, write ready-to-publish copy, or validate a content brief before execution. Triggers include: "plan this week's content", "what should I post this week", "build a content calendar", "write posts for the week", "content for Facebook and Instagram", "weekly social content", or any request to produce, plan, or write social media posts for Lex Autonomous. Always use this skill before writing a single post or slot in a content calendar — it provides the brief validation, pillar mapping, platform mechanics, voice enforcement, and output format that separates structured content strategy from ad hoc posting.
+description: Structured framework for planning and writing weekly social media content calendars for Lex Autonomous Facebook and Instagram accounts. Use this skill whenever an agent needs to produce a weekly content plan, assign posts to platforms, write ready-to-publish copy, or validate a content brief before execution. Triggers include: "plan this week's content", "what should I post this week", "build a content calendar", "write posts for the week", "content for Facebook and Instagram", "weekly social content", or any request to produce, plan, or write social media posts for Lex Autonomous. Always use this skill before writing a single post or slot in a content calendar — it provides the brief validation, pillar mapping, audience temperature mapping, platform mechanics, voice enforcement, and output format that separates structured content strategy from ad hoc posting.
 ---
 
 # Social Content Planner
@@ -29,34 +29,98 @@ Run this check against the input provided:
 **Default assumptions (use if not specified):**
 - Goal: trust-building and authority (this is the baseline for Lex Autonomous at current stage)
 - Audience: small business owners, solopreneurs, and entrepreneurs curious about practical AI
-- Tone: Lex's voice (see Step 3)
+- Tone: Lex's voice (see Step 4)
 
 ---
 
-## Step 2 — Content Pillar Mapping
+## Step 2 — Audience Temperature Mapping
 
-Every week should draw from the Lex Autonomous content pillar system. Not every pillar needs to appear every week — but the week should never be all one type.
+**Run this step before pillar mapping. It determines which posts belong in this week's calendar and who they are written for.**
+
+Every person who encounters Lex Autonomous content sits at one of four temperature levels. Most content creators fight over the 3% at the bottom. This framework captures the other 97%.
+
+### The Four Temperature Levels
+
+**🔴 COLD — Unaware (approx. 60% of total audience)**
+They have not yet connected their problem to AI as a solution. They may not even know they have the problem we solve.
+- What they're thinking: "My business is busy but I feel like I'm always behind"
+- What they do NOT respond to: "Here's how AI agents work" — too advanced, no context
+- What they DO respond to: Posts that name a pain they recognize and live with every day
+- Content goal: Pattern interrupt. Make them stop and think "wait, that's me."
+- Pillar fit: Proof / Reality Check, Perspective / POV
+
+**🟡 WARM — Problem Aware (approx. 20% of total audience)**
+They know they have a problem. They've heard about AI but haven't committed to doing anything about it.
+- What they're thinking: "I know I should be doing something with AI, but I don't know where to start and I don't trust the hype"
+- What they respond to: Grounded education that explains without selling. Specifics. Evidence that this is real and usable.
+- Content goal: Build trust. Close the gap between awareness and interest.
+- Pillar fit: Education, Behind the Build
+
+**🟢 HOT — Solution Aware (approx. 17% of total audience)**
+They're actively researching AI solutions. They know they want to implement something — they're evaluating options and building confidence.
+- What they're thinking: "I want to do this but I need to know it'll actually work for my situation"
+- What they respond to: Specific case examples, proof, frameworks, and mechanisms. Clear next steps.
+- Content goal: Validate their direction. Show them what implementation looks like.
+- Pillar fit: Education (advanced), Behind the Build, Invitation
+
+**🔥 BUYER READY — Ready to Act (approx. 3% of total audience)**
+They're ready to engage now. They need a clear, low-friction path to take action.
+- What they're thinking: "How do I work with Lex / get access to this?"
+- What they respond to: Direct CTAs, offers, proof of results, clear next step
+- Content goal: Remove friction. Tell them exactly what to do.
+- Pillar fit: Invitation, Perspective / POV with offer context
+
+### Weekly Temperature Balance Rule
+
+A strong week does not target only one temperature. Default distribution:
+
+| Week Goal | Cold | Warm | Hot | Buyer Ready |
+|---|---|---|---|---|
+| Trust-building (default) | 3 posts | 2 posts | 1 post | 1 post |
+| Awareness / reach | 4 posts | 2 posts | 1 post | 0 posts |
+| Lead generation | 2 posts | 2 posts | 2 posts | 1 post |
+
+**ROAS principle:** Cold and warm content builds the pool that buyer-ready content converts. Skipping cold/warm in favor of all-conversion content burns the audience. A sustainable content ROAS requires feeding all four levels every week.
+
+### The Magic Lantern Rule
+
+Think of your content calendar as a lit path. Each post is a lantern. A cold audience member finds the first lantern — a post that names their pain. It lights the next one, which teaches them something. Then the next, which shows proof. Then the next, which invites action.
+
+The week's posts should form a logical progression even if no individual follower sees all seven. Someone who finds you mid-week should be able to walk the path from wherever they enter.
+
+**Before finalizing the week:** Check that a first-time follower encountering any single post would have a natural "next post" to move them warmer. If the week is all buyer-ready content or all cold content, it's a broken path. Fix the distribution.
+
+---
+
+## Step 3 — Content Pillar Mapping
+
+Every week draws from the Lex Autonomous content pillar system. Not every pillar needs to appear every week — but the week should never be all one type.
 
 ### The Five Pillars
 
 **1. Education**
 Teach something practical about AI. Show how it works, what it does, why it matters for business owners. No fluff — specific, actionable, useful.
+*Best for: WARM and HOT audiences*
 *Examples: "3 things AI actually does in a business" / "How to delegate to an AI agent" / "The real difference between automation and AI"*
 
 **2. Proof / Reality Check**
 Counter a common AI misconception. Show the gap between hype and reality. Position Lex Autonomous as the grounded, honest voice in a noisy space.
+*Best for: COLD and WARM audiences*
 *Examples: "No, AI won't replace your team" / "What AI tools actually can't do" / "Why most AI implementations fail"*
 
 **3. Behind the Build**
 Show Lex Autonomous in motion. Agent builds, system updates, client work, tools being used. Builds credibility through transparency.
+*Best for: WARM and HOT audiences*
 *Examples: Process clips, screenshots of work, "we just built X for Y" moments*
 
 **4. Perspective / POV**
 Lex's direct take on something in the AI space. An opinion, a trend observation, a clear stance. Not hot takes for engagement — grounded perspective from someone actually doing the work.
+*Best for: COLD (recognition) and HOT (validation) audiences*
 *Examples: "Here's what I think is overhyped in AI right now" / "The one thing most AI consultants miss"*
 
 **5. Invitation**
 Low-friction call to action. Not sales pressure — curiosity + access. Who is this for, what can they get, how do they start.
+*Best for: HOT and BUYER READY audiences*
 *Examples: DM, comment to get something, link to a resource, soft ask for discovery call*
 
 ### Weekly Pillar Mix Guidance
@@ -71,7 +135,7 @@ Flex slots = repeat strongest pillar for the week, or tie to current event/annou
 
 ---
 
-## Step 3 — Voice Enforcement
+## Step 4 — Voice Enforcement
 
 Every post must pass this check before it goes into the calendar.
 
@@ -96,7 +160,7 @@ Before finalizing any post, check:
 
 ---
 
-## Step 4 — Platform-Native Sequencing
+## Step 5 — Platform-Native Sequencing
 
 Facebook and Instagram are not the same channel. Assign platform before writing, then write to that platform's mechanics.
 
@@ -146,7 +210,7 @@ Facebook and Instagram are not the same channel. Assign platform before writing,
 
 ---
 
-## Step 5 — Calendar Output Format
+## Step 6 — Calendar Output Format
 
 Deliver the complete 7-day calendar in this exact structure. One post per block. No summaries — full copy, ready to publish.
 
@@ -155,6 +219,7 @@ Deliver the complete 7-day calendar in this exact structure. One post per block.
 DAY: [Monday / Tuesday / etc.]
 PLATFORM: [Facebook / Instagram / Both]
 PILLAR: [Education / Proof / Behind the Build / Perspective / Invitation]
+AUDIENCE TEMPERATURE: [Cold / Warm / Hot / Buyer Ready]
 FORMAT: [Single image post / Carousel / Reel caption / Story / Link post]
 
 COPY:
@@ -174,32 +239,43 @@ A strong week has variation in:
 - **Tone** — some practical/direct, some reflective/observational
 - **Platform** — not everything on one channel
 - **Ask level** — most posts give, one or two invite action
+- **Temperature** — posts across all four audience levels; no week is all-cold or all-conversion
 
-A flat week (all same length, all same structure, all same pillar) is a failure regardless of copy quality.
+A flat week (all same length, all same structure, all same pillar, all same temperature) is a failure regardless of copy quality.
 
 ---
 
-## Step 6 — Final Output Check
+## Step 7 — Final Output Check
 
 Before delivering the calendar, run this pass:
 
-1. Does every post pass the voice audit? (Step 3)
+1. Does every post pass the voice audit? (Step 4)
 2. Is there pillar variety across the 7 days? (No pillar appears more than 3 times unless the week goal calls for it)
 3. Is platform assignment intentional — not just "post this everywhere"?
 4. Is every post genuinely useful, or did any slot get filled with filler?
-5. Would Lex read this week and feel it represents the brand accurately?
+5. Does the temperature distribution match the week's goal? (Step 2 table)
+6. Does the week form a Magic Lantern path — can a new follower walk from cold to warm across the week?
+7. Would Lex read this week and feel it represents the brand accurately?
 
 **If any post fails, replace it. Don't deliver a week with known weaknesses.**
 
 ---
 
-## Quick Reference — Pillar + Platform Matrix
+## Quick Reference — Pillar + Platform + Temperature Matrix
 
-| Pillar | Best Platform | Why |
+| Pillar | Best Platform | Best Temperature | Why |
+|---|---|---|---|
+| Education | Facebook primary, Instagram carousel | Warm, Hot | Depth works on FB; carousels earn saves on IG |
+| Proof / Reality Check | Both | Cold, Warm | Pattern interrupts work on both |
+| Behind the Build | Instagram primary, FB secondary | Warm, Hot | Visual content performs; FB for longer narrative |
+| Perspective / POV | Facebook primary | Cold, Hot | Developed takes land better with reading audience |
+| Invitation | Instagram primary | Hot, Buyer Ready | Lower friction CTAs convert better on IG |
+
+---
+
+## Change Log
+
+| Version | Date | Change |
 |---|---|---|
-| Education | Facebook primary, Instagram carousel | Depth works on FB; carousels earn saves on IG |
-| Proof / Reality Check | Both | Pattern interrupts work on both |
-| Behind the Build | Instagram primary, FB secondary | Visual content performs; FB for longer narrative |
-| Perspective / POV | Facebook primary | Developed takes land better with reading audience |
-| Invitation | Instagram primary | Lower friction CTAs convert better on IG |
-
+| v2.0 | June 2026 | Added Audience Temperature Mapping (Step 2) — four-tier model (Cold/Warm/Hot/Buyer Ready), weekly distribution tables, ROAS principle, Magic Lantern Rule. Added AUDIENCE TEMPERATURE field to calendar output format. Added temperature check to Final Output Check. Added temperature guidance to each content pillar. Updated Weekly Rhythm Guidance with temperature variation requirement. Steps renumbered (pillar mapping moved to Step 3, voice to Step 4, platform to Step 5, output to Step 6, final check to Step 7). |
+| v1.0 | May 2026 | Initial creation |
