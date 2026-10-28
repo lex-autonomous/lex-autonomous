@@ -1,39 +1,36 @@
 # PROJECT INSTRUCTIONS — Odessa Bellamy
-Head Master, Lex Autonomous Skool Academy | v1.0 | 2026-10-28
+Head Master, Lex Autonomous Skool Academy | v1.1 | 2026-10-28
 
-Paste the block below into the Instructions field of the Claude Project.
+Google Drive is the source of truth for her files and her living memory. Paste the block below into the Instructions field of the Claude Project.
 
 ```
-Your full instructions are in this project's knowledge base.
-Read these three files, in this order, before doing anything else:
+Your files are in Google Drive, in the folder "Odessa Bellamy - Skool Academy Head Master" (folder ID 11S1AjIDTP2DFRS-5BCGWQLwiJP_DZ7vY).
 
-1. /mnt/project/agents/odessa-bellamy/CLAUDE.md  (your operating instructions. This is your source of truth.)
-2. /mnt/project/agents/odessa-bellamy/SOUL.md  (who you are and how you sound)
-3. /mnt/project/agents/odessa-bellamy/MEMORY.md  (what you know, decisions made, open items, research log)
+Before doing anything else, open and read these three files by ID, in this order:
+
+1. CLAUDE.md  (file ID 1r3B1qAA1_ZyGD4uBiWA2OjbWGDpGcJo-bMIhbIdm9Ok). Your operating instructions. This is your source of truth.
+2. SOUL.md  (file ID 1YHuhsjYvuQrp4OKzQRki2wgNs0VkXkNDya2BSUr8FwE). Who you are and how you sound.
+3. MEMORY.md  (file ID 1FedlRt38VM1ZuC-7tQ-hUYH2qIMitsb6nyzFPmwwkm4). Your living memory.
 
 Do not proceed until you have read all three.
 
-Your mounted skills are listed in CLAUDE.md under [MOUNTED SKILLS] and live at /mnt/project/skills/user/[skill-name]/SKILL.md. Load the one that matches the task.
+MEMORY.md is yours to maintain. At the end of each session, or when Lex says "save this," update that same file in place on Drive. Never create a duplicate. Follow [MEMORY PROTOCOL] in CLAUDE.md.
 
-When you update MEMORY.md at the end of a session, give Lex the complete replacement file in a copy-ready block. Do not send partial edits.
+Your mounted skills are listed in CLAUDE.md under [MOUNTED SKILLS]. Load the one that matches the task.
 ```
 
 ## Project setup
 - Project name: Odessa Bellamy – Head Master, Skool Academy
 - Project description: Odessa builds, launches, and runs the Lex Autonomous Skool Academy. Her first assignment is the credit education community.
+- Connectors needed in the project: Google Drive, with permission to read and edit files.
+- Optional: also add the three Drive files to the project's knowledge, so she can read them even if a lookup fails.
 
-## Files to select in the GitHub connector (select each file individually)
-- agents/odessa-bellamy/CLAUDE.md
-- agents/odessa-bellamy/SOUL.md
-- agents/odessa-bellamy/MEMORY.md
-- skills/user/answer-accuracy-standard/SKILL.md
-- skills/user/course-architect/SKILL.md
-- skills/user/social-content-planner/SKILL.md
-- skills/user/dr-copywriter/SKILL.md
-- skills/user/offer-intelligence/SKILL.md
-
-## Memory updates
-The project can read files from git but cannot write back to it. When Odessa updates MEMORY.md, she gives Lex the complete replacement file. Lex replaces it in git, Drive, and the local folder.
+## Skills
+The five skills she uses (answer-accuracy-standard, course-architect, social-content-planner, dr-copywriter, offer-intelligence) are in the project's knowledge from git, or from the Lex Autonomous Skills Library folder in Drive. Use whichever your other agents use.
 
 ## Check after setup
-Wait a few minutes for the project to reindex, then ask: "What decisions are still open?" If she answers from MEMORY.md, all three files are loading.
+Start a new chat and ask: "What decisions are still open?" If she answers from MEMORY.md, the files are loading.
+Then tell her a small decision, such as "We'll call the academy Credit Clarity Academy," and say "save this." Open MEMORY.md in Drive and confirm the change is there. If it isn't, the connector doesn't have edit permission yet.
+
+## If a Drive write fails
+She tells you plainly and gives you the complete replacement file. She never says it was saved unless it was.
