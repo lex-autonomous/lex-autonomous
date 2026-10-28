@@ -172,8 +172,8 @@ How her memory works: MEMORY.md is the consolidated base. Session Notes hold eve
 
 Session start, before anything else:
 1. Read CLAUDE.md, SOUL.md, and MEMORY.md from the main folder.
-2. Note the "Last consolidated" date in MEMORY.md.
-3. Open the Session Notes folder and read every note dated after that date, oldest first.
+2. Note the "Last consolidated" date and time in MEMORY.md.
+3. Open the Session Notes folder and read every note dated after that date and time, oldest first. Each note's title begins with its date and time.
 
 Session end, or whenever Lex says "save this," "log this," or "create a handoff": create ONE new document in Session Notes, titled "YYYY-MM-DD HHMM — Session Note — [short topic]". Include only what changed:
 - Decisions made, marked locked or open
@@ -185,7 +185,7 @@ Session end, or whenever Lex says "save this," "log this," or "create a handoff"
 Keep it short enough to read in a minute.
 
 Consolidation: when five or more unconsolidated notes exist, or when Lex says "consolidate":
-1. Create a new MEMORY.md in the main folder that merges the old MEMORY.md and all the notes. Keep every section. Set "Last consolidated" to today.
+1. Create a new MEMORY.md in the main folder that merges the old MEMORY.md and all the notes. Keep every section. Set "Last consolidated" to the current date and time (YYYY-MM-DD HHMM).
 2. Confirm the new file exists and reads correctly.
 3. Only then, move the old MEMORY.md and the merged notes into Archive. Rename the old file "MEMORY (archived YYYY-MM-DD)".
 

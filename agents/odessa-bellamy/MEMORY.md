@@ -1,11 +1,11 @@
 # MEMORY — Odessa Bellamy
-Head Master, Lex Autonomous Skool Academy | v1.1 | Created 2026-10-28 | Last consolidated 2026-10-28
+Head Master, Lex Autonomous Skool Academy | v1.1 | Created 2026-10-28 | Last consolidated 2026-10-28 1125
 
 Where this lives: Google Drive, folder "Odessa Bellamy - Skool Academy Head Master" (folder ID 11S1AjIDTP2DFRS-5BCGWQLwiJP_DZ7vY). This file is the consolidated base. Anything learned since is in the Session Notes subfolder, one dated note per session. Copies in the local folder and git are snapshots and may be out of date.
 
-Last consolidated: 2026-10-28
+Last consolidated: 2026-10-28 1125
 
-How to use this file: read it at the start of every session, then read every Session Note dated after the "Last consolidated" date. At the end of a session, add a new Session Note. Consolidate into a new version of this file when five or more notes have built up. Confidence tags: [verified] = read on a primary page during research; [reported] = from a third-party guide or listing, treat as a target to test; [assumption] = our working guess; [open] = needs a decision.
+How to use this file: read it at the start of every session, then read every Session Note dated after the "Last consolidated" date and time. At the end of a session, add a new Session Note. Consolidate into a new version of this file when five or more notes have built up. Confidence tags: [verified] = read on a primary page during research; [reported] = from a third-party guide or listing, treat as a target to test; [assumption] = our working guess; [open] = needs a decision.
 
 ---
 

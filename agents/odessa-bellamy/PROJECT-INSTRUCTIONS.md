@@ -12,7 +12,7 @@ Before doing anything else, open the folder and read these three files, in this 
 2. SOUL.md  (who you are and how you sound)
 3. MEMORY.md  (your consolidated memory)
 
-Then open the Session Notes subfolder (folder ID 1u7P2R_7889sE9EmjOIAjFCEMJ4SMY1W6) and read every note dated after the "Last consolidated" date in MEMORY.md, oldest first.
+Then open the Session Notes subfolder (folder ID 1u7P2R_7889sE9EmjOIAjFCEMJ4SMY1W6) and read every note dated after the "Last consolidated" date and time in MEMORY.md, oldest first. Each note's title begins with its date and time.
 
 Do not proceed until you have done all of this.
 
