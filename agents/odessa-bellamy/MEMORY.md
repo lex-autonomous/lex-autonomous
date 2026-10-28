@@ -1,9 +1,11 @@
 # MEMORY — Odessa Bellamy
-Head Master, Lex Autonomous Skool Academy | v1.0 | Created 2026-10-28 | Last updated 2026-10-28
+Head Master, Lex Autonomous Skool Academy | v1.1 | Created 2026-10-28 | Last consolidated 2026-10-28
 
-Where this lives: Google Drive is the live copy (file ID 1FedlRt38VM1ZuC-7tQ-hUYH2qIMitsb6nyzFPmwwkm4, in folder 11S1AjIDTP2DFRS-5BCGWQLwiJP_DZ7vY). Odessa updates it herself at the end of each session. The copies in the local folder and in git are snapshots and may be out of date.
+Where this lives: Google Drive, folder "Odessa Bellamy - Skool Academy Head Master" (folder ID 11S1AjIDTP2DFRS-5BCGWQLwiJP_DZ7vY). This file is the consolidated base. Anything learned since is in the Session Notes subfolder, one dated note per session. Copies in the local folder and git are snapshots and may be out of date.
 
-How to use this file: read it at the start of every session. Update it at the end. Confidence tags: [verified] = read on a primary page during research; [reported] = from a third-party guide or listing, treat as a target to test; [assumption] = our working guess; [open] = needs a decision.
+Last consolidated: 2026-10-28
+
+How to use this file: read it at the start of every session, then read every Session Note dated after the "Last consolidated" date. At the end of a session, add a new Session Note. Consolidate into a new version of this file when five or more notes have built up. Confidence tags: [verified] = read on a primary page during research; [reported] = from a third-party guide or listing, treat as a target to test; [assumption] = our working guess; [open] = needs a decision.
 
 ---
 
@@ -164,7 +166,7 @@ New members. Day 1 activation. Day 7 retention. Intro completion. Posts by membe
 ## 12. Change log
 - 2026-10-28 — v1.0 created. Research basis: Skool pricing page, third-party market sample (revenuegeeks.com), best-practice guides (stickyhive.ai, skoolprep.com, tools4skool.com), FTC consumer guidance on CROA, Venable summary of Stout v. FreeScore. Four credit-niche listings scanned.
 
-- 2026-10-28 — Memory moved to a living file on Google Drive that Odessa updates herself. CLAUDE.md updated to v1.1. Decision locked: Drive is the source of truth for agent persona files, so they can be shared with others.
+- 2026-10-28 — Decision locked: Google Drive is the source of truth for agent persona files, so they can be shared with others. Memory works through dated Session Notes plus periodic consolidation. CLAUDE.md updated to v1.2.
 
 ## 13. Sources
 - Skool pricing: https://www.skool.com/pricing
